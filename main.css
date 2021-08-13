@@ -22,7 +22,6 @@
     height: 500px;
     align-items: center;
     justify-content: center;
-    border-radius: 25px;
 }
 
 .side {
@@ -34,6 +33,7 @@
 .left {
     background-color: #e28525;
     padding: 50px;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .middle {
@@ -44,6 +44,7 @@
 .right {
     background-color: #00403f;
     padding: 50px;
+    border-radius: 0px 5px 5px 0px;
 }
 
 .right a {
