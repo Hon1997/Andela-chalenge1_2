@@ -1,106 +1,161 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.body {
-    background-color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.wrapper {
+                                                                            * {
+                                                                            padding: 0;
+                                                                            margin: 0;
+                                                                            box-sizing: border-box;
+                                                                        }
+                                                                        /*General styles*/
+                                                                        
+                                                                        .body {
+                                                                            color: white;
+                                                                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            min-height: 100vh;
+                                                                            border: 2px solid lime;
+                                                                        }
+                                                                        /* .wrapper {
     width: 960px;
     margin: 0 auto;
-}
-
-.main {
-    display: flex;
-    font-size: 10px;
-    flex-wrap: wrap;
-    flex-flow: row;
-    height: 500px;
-    align-items: center;
-    justify-content: center;
-}
-
-.side {
-    height: 350px;
-    width: 200px;
-    flex: 100px 100px 100px;
-}
-
-.left {
-    background-color: #e28525;
-    padding: 50px;
-    border-radius: 5px 0px 0px 5px;
-}
-
-.middle {
-    background-color: #016972;
-    padding: 50px;
-}
-
-.right {
-    background-color: #00403f;
-    padding: 50px;
-    border-radius: 0px 5px 5px 0px;
-}
-
-.right a {
-    background-color: #f2f2ff;
-    color: #00403f;
-    padding: 10px 15px;
-    border-radius: 150px;
-    align-self: flex-start;
-}
-
-.left a {
-    background-color: #f2f2ff;
-    color: #e28525;
-    padding: 10px 15px;
-    border-radius: 150px;
-    align-self: flex-start;
-}
-
-.middle a {
-    background-color: #f2f2ff;
-    color: #016972;
-    padding: 10px 15px;
-    border-radius: 150px;
-    align-self: flex-start;
-}
-
-.main h2 {
-    padding: 10px 0 10px 0;
-    color: hsl(0, 0%, 95%);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 700;
-}
-
-.main p {
-    padding: 10px 0 60px 0;
-    color: hsla(0, 0%, 100%, 0.75);
-    font-family: ;
-    font-size: 400;
-}
-
-.left h2:hover {
-    color: #e28525;
-    background-color: #b56a1e;
-}
-
-.middle h2:hover {
-    color: #016972;
-    background-color: #01545b;
-}
-
-.right h2:hover {
-    color: #00403f;
-    background-color: #003332;
-}
-
-.cta:hover {
-    color: #e4e6be;
-    background-color: #06808be3;
-}
+} */
+                                                                        
+                                                                        .main {
+                                                                            display: flex;
+                                                                            font-size: 10px;
+                                                                            flex-wrap: wrap;
+                                                                            flex-flow: row;
+                                                                            height: 500px;
+                                                                            align-items: center;
+                                                                            justify-content: center;
+                                                                        }
+                                                                        
+                                                                        .side {
+                                                                            height: 350px;
+                                                                            width: 200px;
+                                                                            flex: 100px 100px 100px;
+                                                                        }
+                                                                        
+                                                                        .left {
+                                                                            background-color: #e28525;
+                                                                            padding: 50px;
+                                                                            border-radius: 5px 0px 0px 5px;
+                                                                        }
+                                                                        
+                                                                        .middle {
+                                                                            background-color: #016972;
+                                                                            padding: 50px;
+                                                                        }
+                                                                        
+                                                                        .right {
+                                                                            background-color: #00403f;
+                                                                            padding: 50px;
+                                                                            border-radius: 0px 5px 5px 0px;
+                                                                        }
+                                                                        
+                                                                        .right a {
+                                                                            background-color: #f2f2ff;
+                                                                            color: #00403f;
+                                                                            padding: 10px 15px;
+                                                                            border-radius: 150px;
+                                                                            align-self: flex-start;
+                                                                        }
+                                                                        
+                                                                        .left a {
+                                                                            background-color: #f2f2ff;
+                                                                            color: #e28525;
+                                                                            padding: 10px 15px;
+                                                                            border-radius: 150px;
+                                                                            align-self: flex-start;
+                                                                        }
+                                                                        
+                                                                        .middle a {
+                                                                            background-color: #f2f2ff;
+                                                                            color: #016972;
+                                                                            padding: 10px 15px;
+                                                                            border-radius: 150px;
+                                                                            align-self: flex-start;
+                                                                        }
+                                                                        
+                                                                        .main h2 {
+                                                                            padding: 10px 0 10px 0;
+                                                                            color: hsl(0, 0%, 95%);
+                                                                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                                                            font-size: 700;
+                                                                        }
+                                                                        
+                                                                        .main p {
+                                                                            padding: 10px 0 60px 0;
+                                                                            color: hsla(0, 0%, 100%, 0.75);
+                                                                            font-family: ;
+                                                                            font-size: 400;
+                                                                        }
+                                                                        
+                                                                        .left h2:hover {
+                                                                            color: #e28525;
+                                                                            background-color: #b56a1e;
+                                                                        }
+                                                                        
+                                                                        .middle h2:hover {
+                                                                            color: #016972;
+                                                                            background-color: #01545b;
+                                                                        }
+                                                                        
+                                                                        .right h2:hover {
+                                                                            color: #00403f;
+                                                                            background-color: #003332;
+                                                                        }
+                                                                        
+                                                                        .cta:hover {
+                                                                            color: #e4e6be;
+                                                                            background-color: #06808be3;
+                                                                        }
+                                                                        /*mobile styles*/
+                                                                        
+                                                                        @media only screen and (max-width: 426px) {
+                                                                            .main {
+                                                                                display: grid;
+                                                                                grid-template-rows: 350px 350px 350px;
+                                                                                font-size: 15px;
+                                                                                flex-wrap: wrap;
+                                                                                flex-flow: row;
+                                                                                height: 500px;
+                                                                                align-items: center;
+                                                                                justify-content: center;
+                                                                            }
+                                                                            .side {
+                                                                                height: 350px;
+                                                                                width: 280px;
+                                                                                flex: 100px 100px 100px;
+                                                                            }
+                                                                            .left {
+                                                                                background-color: #e28525;
+                                                                                padding: 25px;
+                                                                            }
+                                                                            .middle {
+                                                                                background-color: #016972;
+                                                                                padding: 25px;
+                                                                            }
+                                                                            .right {
+                                                                                background-color: #00403f;
+                                                                                padding: 25px;
+                                                                            }
+                                                                            .right a {
+                                                                                background-color: #f2f2ff;
+                                                                                color: #00403f;
+                                                                                padding: 10px 15px;
+                                                                                border-radius: 150px;
+                                                                                align-self: flex-start;
+                                                                            }
+                                                                            .left a {
+                                                                                background-color: #f2f2ff;
+                                                                                color: #e28525;
+                                                                                padding: 10px 15px;
+                                                                                border-radius: 150px;
+                                                                                align-self: flex-start;
+                                                                            }
+                                                                            .middle a {
+                                                                                background-color: #f2f2ff;
+                                                                                color: #016972;
+                                                                                padding: 10px 15px;
+                                                                                border-radius: 150px;
+                                                                                align-self: flex-start;
+                                                                            }
